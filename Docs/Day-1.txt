@@ -1,0 +1,55 @@
+developer: 
+    8
+Testers: Selenium -> Dynamics 365 - playwright
+    8
+Analyst: 
+    3 -> python, sql, ETL UI 
+PM: 
+    1 
+VS -> 
+CI/CD: service now 
+    3 -> 
+
+SLDC -> 
+    RG 
+    HLD -> er-diagrams -> sequence diagrams -> wireframes UI/UX -> figma 
+    LLD -> generating of code 
+            1. techno 
+            2. performance 
+            3. unit test 
+            4. openapi spec and create projects for it 
+    Testing -> 
+            1. test data
+            2. test cases
+            3. playwright -> automated testing scenarios 
+    Deployment -> 
+            1. Containerization
+            2. Jenkins ->
+            3. iac -> teraform 
+    Maintainnance -> 
+            1. reportings 
+            2. log evaluations 
+            3. observability 
+
+Prerequisite -> 
+    VSCode
+    Extensions
+    Copilot subscription -> free 
+
+Flow -> 
+    Copilot -> 
+    GAI -> LLM -> AI -> ML -> Deep Learning -> RAG -> Tokens -> Context 
+    IDE's -> Codespace -> github.com 
+    Configurations -> 
+
+Clasification -> 
+    data for training  -> ML auto learn -> statistical equations-> grouping 
+
+LLM -> stateless service -> training -> gpt-3.5 -> 2024-august -> openai 
+    Vendors -> microsoft -> ai foundry -> LLM -> KB -> SLA -> 
+
+break -> 11.15 -> 11.30
+lunch break -> 1.15 - 2.15
+break -> 3.30 - 3.45
+
+
