@@ -53,3 +53,16 @@ lunch break -> 1.15 - 2.15
 break -> 3.30 - 3.45
 
 
+Claude -> Antropic -> trained the model for code generation
+gemini -> google 
+gpt-4.1 -> openai + microsoft
+
+bedrock 
+    -> llama 7b parameters 
+        financial data -> bank is in next street 
+    -> gpt-4.1 2t parameters 
+        financial data -> hdfc bank
+        georaphy -> river bank
+        medical -> blood bank
+        hallicunation - 
+            medication, where is bank -> Prompt engg
