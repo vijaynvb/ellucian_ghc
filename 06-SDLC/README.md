@@ -126,16 +126,8 @@ Generate equivalent Oracle SQL statements for the User entity with the following
 
 DDL (Data Definition Language):
 
-Create a users table with fields:
-id (number, primary key, auto-increment)
-name (VARCHAR2)
-email (VARCHAR2, unique, not null)
-password (VARCHAR2, not null)
-Add necessary constraints:
-Primary key on id
-Unique constraint on email
-NOT NULL constraints where appropriate
-Use a sequence and trigger for auto-incrementing id (Oracle standard)
+Create a users table with fields
+
 DML (Data Manipulation Language):
 
 Insert at least 3 sample users
