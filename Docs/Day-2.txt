@@ -1,0 +1,35 @@
+Recap: 
+    GAI -> Code Copilot -> LLM -> Huge Data -> Mulit model -> image, video, text
+    Openai Codex -> LLM -> github repos -> 
+    Github.com -> Copilot client -> IDE 
+    VS Code -> 
+        1. Chat 
+        2. Suggestions
+        3. Command Palates
+        4. Agentic AI -> use some tools to complete the tasks 
+    MERN -> Autogenerate the code 
+
+1. Copilot Configurtaions -> vs code 
+2. Prompt Engg
+3. SDLC
+4. Agentic AI -> MCP 
+
+        Tokens -> 32 bit    -> tokens 
+user -> prompt -> request   |   llm -> process the request 
+               <- response  |
+
+
+Prompt engg: 
+
+1. your are an experenced python test engginer 
+2. working on a education portal for writing test cases 
+3. write a test case for assessment module 
+4. generate a csv file for the test cases 
+
+
+oracle sql statements
+varchar2
+
+
+postgres sql statement 
+varchar

@@ -1,6 +1,6 @@
 // Prompt for GitHub Copilot to Generate MERN application
 
-Generate only the OpenAPI specification 3.0 file (YAML or JSON) describing the backend API endpoints for this application:
+Generate only the OpenAPI specification 3.0 file (YAML or JSON) describing the backend API endpoints TODO this application:
 
 1. Backend: 
    - Built with Node.js and Express.js

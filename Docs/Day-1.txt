@@ -66,3 +66,7 @@ bedrock
         medical -> blood bank
         hallicunation - 
             medication, where is bank -> Prompt engg
+
+
+SA, ARC 
+    rest endpoints -> OpenAPI Specs -> Developrs 
