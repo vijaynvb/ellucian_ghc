@@ -38,3 +38,10 @@ varchar
 user -> prompt -> gaurdrails  -> request   |   llm -> process the request 
                   gaurdrails  <- response  |
                 is it proprietry or IP
+
+
+RAG ->      retrival                ,   Augmented,                  Generatation 
+           client data  
+
+genreate user table data     +     100 records of user details   -> llm -> 
+    

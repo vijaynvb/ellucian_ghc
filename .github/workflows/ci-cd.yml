@@ -1,0 +1,53 @@
+name: CI/CD
+
+on: workflow_dispatch
+  
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [16.x, 18.x, 20.x]
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node-version }}
+          cache: 'npm'
+
+      - name: Install server dependencies
+        working-directory: ./server
+        run: npm install
+
+      - name: Install client dependencies
+        working-directory: ./client
+        run: npm install
+
+      - name: Run server tests (if available)
+        working-directory: ./server
+        run: |
+          if [ -f package.json ] && npm run | grep -q test; then npm test; else echo "No server tests"; fi
+
+      - name: Run client tests (if available)
+        working-directory: ./client
+        run: |
+          if [ -f package.json ] && npm run | grep -q test; then npm test; else echo "No client tests"; fi
+
+      - name: Build server
+        working-directory: ./server
+        run: |
+          if [ -f package.json ] && npm run | grep -q build; then npm run build; else echo "No server build script"; fi
+
+      - name: Build client
+        working-directory: ./client
+        run: |
+          if [ -f package.json ] && npm run | grep -q build; then npm run build; else echo "No client build script"; fi
+
+      # - name: Deploy (mock step)
+      #   run: echo "Deploy step here. Integrate with your deployment provider."
+
+    # No database configuration required (in-memory only)
+    # Add deployment secrets if/when needed for real deployment
