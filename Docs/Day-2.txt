@@ -33,3 +33,8 @@ varchar2
 
 postgres sql statement 
 varchar
+
+ generate generic teraform script -> responsible ai
+user -> prompt -> gaurdrails  -> request   |   llm -> process the request 
+                  gaurdrails  <- response  |
+                is it proprietry or IP

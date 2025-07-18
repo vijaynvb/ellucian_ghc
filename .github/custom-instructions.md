@@ -1,0 +1,1 @@
+write all the code for better memory management for perfomance and efficiency.
